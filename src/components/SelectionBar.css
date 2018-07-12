@@ -1,0 +1,50 @@
+.selectionBar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+
+	margin: 0;
+	padding: 0 30px;
+
+}
+
+input{
+	width: 80px;
+	height: 30px;
+	margin: 8px 20px;
+	padding: 5px; 
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px gray;
+	cursor: pointer;
+	outline: none;
+	border-color: #00000047;
+	background-color: #00000026;
+}
+
+input:hover {
+	transform: scale(1.025);
+}
+
+
+.rotate {
+	height: 45px;
+	margin: 0 20px;
+	cursor: pointer;
+	width: 45px;
+	
+}
+
+.rotate:hover{
+	transform: scale(1.10);
+}
+
+.getCode {
+	align-self:  flex-start;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 25px;
+
+}
